@@ -1,0 +1,27 @@
+/* Use PT serif everywhere if not anything 
+   else specified
+*/
+body {
+    font-family: 'PT Serif', serif;
+  }
+   
+  /* Use Oswald for all headlines and card text */
+  h1, h2, h3, h4, h5, h6, .btn, .card-text, .nav-link, .dropdown-menu, footer {
+    font-family: 'Oswald', sans-serif;
+  }
+   
+  .card-text {
+     font-size: 80%;
+  }
+   
+  /* Use Sigmar One for all thing marked
+     with the logo class
+  */
+  .logo {
+    font-family: 'Sigmar One', cursive;
+  }
+   
+  /* Make icons a little bigger */
+  .fas {
+    font-size: 120%;
+  }

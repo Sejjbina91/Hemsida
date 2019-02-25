@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Varukorg</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+        Artikel  
+        </div>
+        <div class="col">
+          Antal
+        </div>
+        <div class="col">
+        Pris
+      </div>
+          </div>
+        </div>
+        <div class="modal-body">
+            <div class="list-of-products ml-3"></div>
+          Din varukorg är tom
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Avbryt</button>
+          <button type="button" class="btn btn-primary">Gå till kassan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/libs/bootstrap.css">
+ 
+  <!-- Fix sticky footer-->
+  <link rel="stylesheet" href="css/sticky-footer.css">
+ 
+  <!-- Fonts and icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|PT+Serif:400,400i,700,700i|Sigmar+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <title>Cirkushästar AB</title>
+</head>
+ 
+<body>
+ 
+  <header>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-md">
+      <a class="navbar-brand logo" href="#">Cirkushästar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+ 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Start</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Hästar
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Isafold.html">Isafold</a>
+              <a class="dropdown-item" href="Hrimfaxi.html">Hrimfaxi</a>
+              <a class="dropdown-item" href="Krummi.html">Krummi</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="omoss.html">Om oss</a>
+          </li>
+        </ul>
+      </div>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Varukorg <i class="fas fa-shopping-cart"></i>
+  </button>
+    </nav>
+  </header>
+ 
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/123.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/1234.jpg" class=" d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/12345.jpg" class=" d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+ 
+        <h2 class="mt-3">Vi kan cirkushästar!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod non subducta utilitatis ratione effici solet,
+          sed ipsum a se oritur et sua sponte nascitur. Egone non intellego, quid sit don Graece, Latine voluptas?
+          Facillimum id quidem est, inquam. Uterque enim summo bono fruitur, id est voluptate. Duo Reges: constructio
+          interrete. Pollicetur certe. </p>
+ 
+        <div class="main-article-extra-text d-none d-md-block">
+          <p>Hinc ceteri particulas arripere conati suam quisque videro voluit afferre sententiam. Non dolere, inquam,
+            istud quam vim habeat postea videro; Duarum enim vitarum nobis erunt instituta capienda. Fortemne possumus
+            dicere eundem illum Torquatum? </p>
+ 
+          <p>Quod quidem iam fit etiam in Academia. Qui autem de summo bono dissentit de tota philosophiae ratione
+            dissentit. Num igitur eum postea censes anxio animo aut sollicito fuisse? Cur igitur, cum de re conveniat,
+            non
+            malumus usitate loqui? Istam voluptatem perpetuam quis potest praestare sapienti? Tenent mordicus. Commoda
+            autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Sed ad rem redeamus; Cupit enim
+            dícere nihil posse ad beatam vitam deesse sapienti. </p>
+ 
+          <p>Haec para/doca illi, nos admirabilia dicamus. Quod vestri non item. Utrum igitur tibi litteram videor an
+            totas paginas commovere? Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Quis
+            animo
+            aequo videt eum, quem inpure ac flagitiose putet vivere? Iam in altera philosophiae parte. Ut placet,
+            inquit,
+            etsi enim illud erat aptius, aequum cuique concedere. Ne discipulum abducam, times. </p>
+ 
+          <p>Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Audeo dicere, inquit. Cum salvum esse
+            flentes sui respondissent, rogavit essentne fusi hostes. Nam adhuc, meo fortasse vitio, quid ego quaeram non
+            perspicis. </p>
+ 
+          <p>Hanc quoque iucunditatem, si vis, transfer in animum; Res tota, Torquate, non doctorum hominum, velle post
+            mortem epulis celebrari memoriam sui nominis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem
+            doloris. Negabat igitur ullam esse artem, quae ipsa a se proficisceretur; Hanc quoque iucunditatem, si vis,
+            transfer in animum; </p>
+ 
+          <p>Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Cum audissem Antiochum, Brute, ut solebam,
+            cum
+            M. Nunc vero a primo quidem mirabiliter occulta natura est nec perspici nec cognosci potest. Quid ergo aliud
+            intellegetur nisi uti ne quae pars naturae neglegatur? Sed nonne merninisti licere mihi ista probare, quae
+            sunt a te dicta? Fatebuntur Stoici haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi
+            fuisse. Tu vero, inquam, ducas licet, si sequetur; Id est enim, de quo quaerimus. </p>
+ 
+        </div>
+ 
+        <button class="read-more-main-article btn btn-primary float-right mb-4 d-block d-md-none">
+          <span>Läs mer <i class="ml-2 fas fa-caret-down"></i></span>
+          <span class="d-none">Läs mindre <i class="ml-2 fas fa-caret-up"></i></span>
+        </button>
+ 
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/123.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hrimfaxi</h5>
+            <p class="card-text">Född 2010, hingst
+              Hrimfaxi är en pigg och lättlärd häst fungerar dock inte att träna tillsammans med andra hästar då han är en hingst.</p>
+            <a href="Hrimfaxi.html" class="btn btn-primary float-right">Läs mer</a>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <img src="images/1234.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Krummi</h5>
+            <p class="card-text">Född 2012, valack
+              Krummi är en positiv häst, kan vara avvaktande med vissa människor men fungerar med de flesta hästar.
+              Han har blivit klickertränad och kan på kommando lägga sig ner, stegra, backa, gå upp på föremål med sina framhovar</p>
+            <a href="Krummi.html" class="btn btn-primary float-right">Läs mer</a>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <img src="images/12345.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Isafold</h5>
+            <p class="card-text">Född 2011, sto.
+              Isafold har en fin stamtavla, har tränat mycket naural horsemenship samt vart ute och tävlat i detta. 
+              Hon är en social häst, lätt att lasta, sko samt mycket villig att lära sig nya trick.</p>
+            <a href="Isafold.html" class="btn btn-primary float-right">Läs mer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+ 
+  <footer class="container-fluid bg-primary text-light mt-5 py-3">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="my-0 text-center">Email: <a class="text-light"
+            href="mailto:info@cirkushaster.se">info@cirkushastar.se</a></p>
+      </div>
+      <div class="col-md-4">
+        <p class="my-0 text-center">Telefon: 010-123 45 678</p>
+      </div>
+      <div class="col-md-4">
+        <p class="my-0 text-center">© 2019 Cirkushästar AB</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/store.js"></script>
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/popper.js"></script>
+  <script src="js/libs/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/varukorg.js"></script>
+  
+</body>
+ 
+</html>
