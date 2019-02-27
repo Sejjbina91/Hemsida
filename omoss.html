@@ -2,6 +2,43 @@
 <html>
  
 <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Varukorg</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+              Artikel  
+              </div>
+              <div class="col">
+                Antal
+              </div>
+              <div class="col">
+              Pris
+            </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                  <div class="list-of-products ml-3"></div>
+                Din varukorg är tom
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Avbryt</button>
+              <button type="button" class="btn btn-primary">Gå till kassan</button>
+            </div>
+          </div>
+        </div>
+      </div>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,12 +75,12 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Produkter
+              Hästar
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="Isafold.html">Isafold</a>
-              <a class="dropdown-item" href="#">Produkt 2</a>
-              <a class="dropdown-item" href="#">Produkt 3</a>
+              <a class="dropdown-item" href="Hrimfaxi.html">Hrimfaxi</a>
+              <a class="dropdown-item" href="Krummi.html">Krummi</a>
             </div>
           </li>
           <li class="nav-item active">
@@ -51,6 +88,10 @@
           </li>
         </ul>
       </div>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Varukorg <i class="fas fa-shopping-cart"></i>
+      </button>
     </nav>
   </header>
  
@@ -138,10 +179,12 @@
     </div>
   </footer>
  
+  <script src="js/store.js"></script>
   <script src="js/libs/jquery.js"></script>
   <script src="js/libs/popper.js"></script>
   <script src="js/libs/bootstrap.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/varukorg.js"></script>
 </body>
  
 </html>
